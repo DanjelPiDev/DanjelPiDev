@@ -20,7 +20,6 @@ I'm a dedicated developer working across the full stack, from backend to fronten
     <img src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" />
     <img src="https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white" />
     <img src="https://img.shields.io/badge/-C%23-239120?style=flat&logo=csharp&logoColor=white" />
-    <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white" />
     <img src="https://img.shields.io/badge/-Springboot-6DB33F?style=flat&logo=spring&logoColor=white" />
     <img src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black" />
     <img src="https://img.shields.io/badge/-Angular-DD0031?style=flat&logo=angular&logoColor=white" />
