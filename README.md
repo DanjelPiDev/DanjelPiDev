@@ -32,7 +32,7 @@ I'm a dedicated developer working across the full stack, from backend to fronten
 
 ### 📊 GitHub Stats
 <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NullPointerExcy&theme=radical&card_width=400" alt="Top-Sprachen" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NullPointerExcy&theme=radical&card_width=600" alt="Top-Languages" width="60%" />
 </div>
 
 ---
