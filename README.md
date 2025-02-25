@@ -37,6 +37,12 @@ This GitHub is dedicated solely to my **hobby projects**, where I explore new to
 
 ---
 
+### Contact
+<p align="center">
+    <a href="mailto:nullpointerexcy@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+
+
 ### Achievements & Badges
 <div align="center">
     <img src="https://github-profile-trophy.vercel.app/?username=NullPointerExcy&theme=radical&no-bg=true&no-frame=true&column=4" alt="Trophies" />
