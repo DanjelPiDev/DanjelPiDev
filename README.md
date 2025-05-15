@@ -28,7 +28,7 @@ This GitHub is dedicated solely to my **hobby projects**, where I explore new to
 
 ### GitHub Stats
 <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NullPointerExcy&theme=radical&layout=compact&langs_count=10" alt="Top Languages" width="50%" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanjelPiDev&theme=radical&layout=compact&langs_count=10" alt="Top Languages" width="50%" />
 </div>
 
 ---
