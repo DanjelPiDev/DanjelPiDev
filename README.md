@@ -3,26 +3,28 @@
 ---
 
 ### About Me
-I'm a dedicated developer working across the full stack, from backend to frontend, diving into both the technical details and the broader impact of tech.
+I develop full-stack systems by day and build strange, experimental AI projects by night.
 
-This GitHub is dedicated solely to my **hobby projects**, where I explore new tools, languages, and frameworks to continually expand my understanding and skills. Programming is a core part of my life, both as a profession and a hobby.
+This GitHub is where I explore everything from emotion-aware spiking neural networks and auto-updating LLMs, to low-level backup bots and Unreal Engine prototypes. Some of it works. Some of it breaks beautifully.
+Most of what you see here wasn't made for show, it was built to learn something new or prove that it could be done. Sometimes both.
+
+If you're here to find polished SaaS clones, you're in the wrong repo.
+
+If you're into complex systems, weird architecture, and slightly unhinged passion projects... Welcome.
 
 ---
 
 ### Tech Stack & Tools
-<p align="center">
-    <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white" />
-    <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-    <img src="https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-    <img src="https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-    <img src="https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-    <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-    <img src="https://img.shields.io/badge/-Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Unity-000000?style=for-the-badge&logo=unity&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Unreal%20Engine-0E1128?style=for-the-badge&logo=unreal-engine&logoColor=white" />
-</p>
+#### Languages & Frameworks
+
+- Python, Java, TypeScript, C++, C#
+- PyTorch, Spring Boot, React, Unreal Engine, Unity
+
+#### Focus Areas
+
+- Machine Learning (SNNs, Transformers, RL, CNNs)
+- Full-Stack Web Systems (APIs, Admin UIs, Video platforms)
+- Tooling & Automation (backup systems, DB scripting)
 
 ---
 
