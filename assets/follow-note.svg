@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="200" viewBox="0 0 1100 200">
+    <a href="https://en.wikipedia.org/wiki/Reading_comprehension" target="_blank">
+        <rect x="10" y="10" rx="16" ry="16" width="800" height="140" fill="url(#bg)" stroke="#1f2937" stroke-width="1.5"/>
+    </a>
     <defs>
         <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stop-color="#0d1117"/>
@@ -25,7 +28,6 @@
 
         <mask id="cursorMask">
             <rect width="100%" height="100%" fill="white"/>
-            <!-- transparent hole where cursor sits (none needed here) -->
         </mask>
     </defs>
 
