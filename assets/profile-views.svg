@@ -22,8 +22,29 @@
     <rect x="10" y="10" rx="16" ry="16" width="800" height="120" fill="url(#bg)" stroke="#1f2937" stroke-width="1.5"/>
     <text x="40" y="55" font-family="Inter, Segoe UI, system-ui" font-size="20" fill="#9fb3c8">Profile Views (last 7 lifetimes)</text>
 
+    <g id="vGamma" transform="translate(40,115)" font-family="Inter, Segoe UI, system-ui" font-weight="800" opacity="0">
+        <text font-size="40" fill="url(#rainbow)">
+            Γ(<tspan font-style="italic">z</tspan>) =
+        </text>
+        <text x="135" y="0" font-size="44" fill="url(#rainbow)">∫</text>
+
+        <text x="152" y="-22" font-size="18" fill="url(#rainbow)">∞</text>
+
+        <text x="152" y="18" font-size="18" fill="url(#rainbow)">0</text>
+
+        <text x="180" y="0" font-size="40" fill="url(#rainbow)">
+            <tspan font-style="italic">t</tspan>
+            <tspan baseline-shift="super" font-size="26">
+                <tspan font-style="italic">z</tspan>−1
+            </tspan>
+            <tspan xml:space="preserve">  e</tspan>
+            <tspan baseline-shift="super" font-size="26">−<tspan font-style="italic">t</tspan></tspan>
+            <tspan xml:space="preserve">  d<tspan font-style="italic">t</tspan></tspan>
+        </text>
+    </g>
+
     <g font-family="Inter, Segoe UI, system-ui" font-weight="800" font-size="44" filter="url(#glow)">
-        <text id="v1" x="40" y="115" fill="url(#rainbow)" opacity="1">1,337,000</text>
+        <text id="v1" x="40" y="115" fill="url(#rainbow)" opacity="1">ℵ₀</text>
         <text id="v2" x="40" y="115" fill="url(#rainbow)" opacity="0">3.1415e6 + 2.718i</text>
         <text id="v3" x="40" y="115" fill="url(#rainbow)" opacity="0">42,000,000,000</text>
         <text id="v4" x="40" y="115" fill="url(#rainbow)" opacity="0">|ψ⟩</text>
@@ -33,13 +54,16 @@
         <text id="v6" x="40" y="115" fill="url(#rainbow)" opacity="0" font-size="32">
             |α|<tspan baseline-shift="super" font-size="20">2</tspan> + |β|<tspan baseline-shift="super" font-size="20">2</tspan> = 1
         </text>
+        <text id="v7" x="40" y="115" fill="url(#rainbow)" opacity="0">1,337,000</text>
 
-        <animate href="#v1" attributeName="opacity" values="1;0;0;0;0;0;1" dur="7.2s" repeatCount="indefinite"/>
-        <animate href="#v2" attributeName="opacity" values="0;1;0;0;0;0;0" dur="7.2s" begin="1.2s" repeatCount="indefinite"/>
-        <animate href="#v3" attributeName="opacity" values="0;0;1;0;0;0;0" dur="7.2s" begin="2.4s" repeatCount="indefinite"/>
-        <animate href="#v4" attributeName="opacity" values="0;0;0;1;0;0;0" dur="7.2s" begin="3.6s" repeatCount="indefinite"/>
-        <animate href="#v5" attributeName="opacity" values="0;0;0;0;1;0;0" dur="7.2s" begin="4.8s" repeatCount="indefinite"/>
-        <animate href="#v6" attributeName="opacity" values="0;0;0;0;0;1;0" dur="7.2s" begin="6.0s" repeatCount="indefinite"/>
+        <animate href="#v1" attributeName="opacity" values="1;0;0;0;0;0;1" dur="20.2s" repeatCount="indefinite"/>
+        <animate href="#v2" attributeName="opacity" values="0;1;0;0;0;0;0" dur="12.2s" begin="2.2s" repeatCount="indefinite"/>
+        <animate href="#v3" attributeName="opacity" values="0;0;1;0;0;0;0" dur="12.2s" begin="6.4s" repeatCount="indefinite"/>
+        <animate href="#v4" attributeName="opacity" values="0;0;0;1;0;0;0" dur="12.2s" begin="8.6s" repeatCount="indefinite"/>
+        <animate href="#v5" attributeName="opacity" values="0;0;0;0;1;0;0" dur="12.2s" begin="12.8s" repeatCount="indefinite"/>
+        <animate href="#v6" attributeName="opacity" values="0;0;0;0;0;1;0" dur="12.2s" begin="15.0s" repeatCount="indefinite"/>
+        <animate href="#v7" attributeName="opacity" values="0;0;0;0;0;1;0" dur="12.2s" begin="18.0s" repeatCount="indefinite"/>
+        <animate href="#vGamma" attributeName="opacity" values="0;1;0" dur="14.2s" begin="21.0s" repeatCount="indefinite"/>
     </g>
 
     <rect x="390" y="78" width="12" height="28" fill="#9fb3c8">
