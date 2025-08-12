@@ -74,7 +74,7 @@
     <text x="40" y="496" class="label">Small Talk (IRL)</text>
     <rect x="220" y="484" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill11" x="220" y="484" width="0" height="16" rx="8" fill="url(#bar)"/>
-    <animate href="#fill11" attributeName="width" values="0;110" dur="1.2s" begin="0.4s" fill="freeze"/>
+    <animate href="#fill11" attributeName="width" values="0;120;480;0;350" dur="12.2s" begin="0.4s" fill="freeze" repeatCount="indefinite"/>
 
     <text x="40" y="534" class="label">Deep Talk (IRL)</text>
     <rect x="220" y="522" width="480" height="16" rx="8" fill="#1f2937"/>
