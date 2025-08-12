@@ -12,6 +12,12 @@ If you're here to find polished SaaS clones, you're in the wrong repo.
 
 If you're into complex systems, weird architecture, and slightly unhinged passion projects... Welcome.
 
+
+<p align="center">
+  <img src="assets/profile-views.svg" alt="Totally Real Profile Views" />
+</p>
+
+
 ---
 
 <p align="center">
@@ -42,12 +48,19 @@ Also, my follow policy is strict: I only follow my nose... and that's when it sm
 - Full-Stack Web Systems (APIs, Admin UIs, Video platforms)
 - Tooling & Automation (backup systems, DB scripting)
 
+<p align="center">
+  <img src="assets/language-bars.svg" alt="Languages I speak" />
+</p>
+
+
 ---
 
 ### GitHub Stats
-<div align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanjelPiDev&theme=radical&layout=compact&langs_count=10" alt="Top Languages" width="50%" />
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/PROFILE%20VIEWS-QUANTUM%20SUPERPOSITION-6e59a5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/FOLLOW%20COUNT-NOT%20A%20KPI-374151?style=for-the-badge" />
+</p>
+
 
 ---
 

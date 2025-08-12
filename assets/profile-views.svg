@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="140" viewBox="0 0 820 140">
+    <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#0d1117"/>
+            <stop offset="100%" stop-color="#121826"/>
+        </linearGradient>
+        <linearGradient id="rainbow" x1="0" y1="0" x2="820" y2="0" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#ff0066"/>
+            <stop offset="25%" stop-color="#ff9a00"/>
+            <stop offset="50%" stop-color="#ffe600"/>
+            <stop offset="75%" stop-color="#00d084"/>
+            <stop offset="100%" stop-color="#00c2ff"/>
+            <animateTransform attributeName="gradientTransform" type="translate"
+                              from="-820 0" to="820 0" dur="6s" repeatCount="indefinite"/>
+        </linearGradient>
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+    </defs>
+
+    <rect x="10" y="10" rx="16" ry="16" width="800" height="120" fill="url(#bg)" stroke="#1f2937" stroke-width="1.5"/>
+    <text x="40" y="55" font-family="Inter, Segoe UI, system-ui" font-size="20" fill="#9fb3c8">Profile Views (last 7 lifetimes)</text>
+
+    <g font-family="Inter, Segoe UI, system-ui" font-weight="800" font-size="44" filter="url(#glow)">
+        <text id="v1" x="40" y="105" fill="url(#rainbow)" opacity="1">1,337,000</text>
+        <text id="v2" x="40" y="105" fill="url(#rainbow)" opacity="0">3.1415e6 + 2.718i</text>
+        <text id="v3" x="40" y="105" fill="url(#rainbow)" opacity="0">42,000,000,000</text>
+        <text id="v4" x="40" y="105" fill="url(#rainbow)" opacity="0">ℵ₀</text>
+
+        <animate href="#v1" attributeName="opacity" values="1;0;0;0;1" dur="4.8s" repeatCount="indefinite"/>
+        <animate href="#v2" attributeName="opacity" values="0;1;0;0;0" dur="4.8s" repeatCount="indefinite" begin="1.2s"/>
+        <animate href="#v3" attributeName="opacity" values="0;0;1;0;0" dur="4.8s" repeatCount="indefinite" begin="2.4s"/>
+        <animate href="#v4" attributeName="opacity" values="0;0;0;1;0" dur="4.8s" repeatCount="indefinite" begin="3.6s"/>
+    </g>
+
+    <rect x="390" y="78" width="12" height="28" fill="#9fb3c8">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+</svg>

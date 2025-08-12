@@ -1,0 +1,101 @@
+<!-- assets/language-bars.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+    <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#0d1117"/>
+            <stop offset="100%" stop-color="#10151d"/>
+        </linearGradient>
+        <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#7c3aed"/>
+            <stop offset="50%" stop-color="#06b6d4"/>
+            <stop offset="100%" stop-color="#10b981"/>
+        </linearGradient>
+        <style>
+            .title{font:700 24px Inter, Segoe UI, system-ui; fill:#e6edf3}
+            .label{font:600 16px Inter, Segoe UI, system-ui; fill:#c7d2fe}
+            .cap{font:500 13px Inter, Segoe UI, system-ui; fill:#9fb3c8}
+        </style>
+    </defs>
+    <rect x="10" y="10" rx="16" ry="16" width="880" height="340" fill="url(#bg)" stroke="#1f2937" stroke-width="1.5"/>
+
+    <text x="40" y="50" class="title">Languages I (pretend to) speak</text>
+    <text x="40" y="78" class="cap">Animated fluency bars. 100% real, audited by my coffee machine.</text>
+
+    <g id="row">
+        <rect x="0" y="0" width="520" height="16" rx="8" fill="#1f2937"/>
+        <rect id="fill" x="0" y="0" width="0" height="16" rx="8" fill="url(#bar)"/>
+    </g>
+
+    <text x="40" y="116" class="label">Python</text>
+    <g transform="translate(220,104)">
+        <use href="#row"/>
+        <animate href="#fill" attributeName="width" values="0;480" dur="1.2s" fill="freeze"/>
+    </g>
+
+    <text x="40" y="154" class="label">TypeScript</text>
+    <g transform="translate(220,142)">
+        <use href="#row"/>
+        <animate href="#fill" attributeName="width" values="0;430" dur="1.2s" begin="0.1s" fill="freeze"/>
+    </g>
+
+    <text x="40" y="192" class="label">C++</text>
+    <g transform="translate(220,180)">
+        <use href="#row"/>
+        <animate href="#fill" attributeName="width" values="0;410" dur="1.2s" begin="0.2s" fill="freeze"/>
+    </g>
+
+    <text x="40" y="230" class="label">Java</text>
+    <g transform="translate(220,218)">
+        <use href="#row"/>
+        <animate href="#fill" attributeName="width" values="0;380" dur="1.2s" begin="0.3s" fill="freeze"/>
+    </g>
+
+    <text x="40" y="268" class="label">C#</text>
+    <g transform="translate(220,256)">
+        <use href="#row"/>
+        <animate href="#fill" attributeName="width" values="0;360" dur="1.2s" begin="0.4s" fill="freeze"/>
+    </g>
+
+    <text x="40" y="306" class="label">Papyrus (Skyrim)</text>
+    <g transform="translate(220,294)">
+        <use href="#row"/>
+        <animate href="#fill" attributeName="width" values="0;520;120;520" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Right column: Human -->
+    <text x="620" y="116" class="label">Deutsch</text>
+    <g transform="translate(620,104)">
+        <use href="#row"/>
+        <animate href="#fill" attributeName="width" values="0;500" dur="1.2s" fill="freeze"/>
+    </g>
+
+    <text x="620" y="154" class="label">English</text>
+    <g transform="translate(620,142)">
+        <use href="#row"/>
+        <animate href="#fill" attributeName="width" values="0;470" dur="1.2s" begin="0.1s" fill="freeze"/>
+    </g>
+
+    <text x="620" y="192" class="label">Sarcasm</text>
+    <g transform="translate(620,180)">
+        <use href="#row"/>
+        <animate href="#fill" attributeName="width" values="0;520" dur="1.2s" begin="0.2s" fill="freeze"/>
+    </g>
+
+    <text x="620" y="230" class="label">CoffeeScript (literal)</text>
+    <g transform="translate(620,218)">
+        <use href="#row"/>
+        <animate href="#fill" attributeName="width" values="0;440" dur="1.2s" begin="0.3s" fill="freeze"/>
+    </g>
+
+    <text x="620" y="268" class="label">Small Talk (IRL)</text>
+    <g transform="translate(620,256)">
+        <use href="#row"/>
+        <animate href="#fill" attributeName="width" values="0;120" dur="1.2s" begin="0.4s" fill="freeze"/>
+    </g>
+
+    <text x="620" y="306" class="label">Regex</text>
+    <g transform="translate(620,294)">
+        <use href="#row"/>
+        <animate href="#fill" attributeName="width" values="0;520" dur="1.2s" begin="0.5s" fill="freeze"/>
+    </g>
+</svg>
