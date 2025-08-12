@@ -66,7 +66,7 @@
     <animate href="#fill6" attributeName="width" values="0;480;120;480" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
 
     <!-- 7: Deutsch -->
-    <text x="40" y="344" class="label">Deutsch</text>
+    <text x="40" y="344" class="label">German</text>
     <rect x="220" y="332" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill7" x="220" y="332" width="0" height="16" rx="8" fill="url(#bar)"/>
     <animate href="#fill7" attributeName="width" values="0;500" dur="1.2s" fill="freeze"/>
