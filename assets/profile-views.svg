@@ -66,7 +66,4 @@
         <animate href="#vGamma" attributeName="opacity" values="0;1;0" dur="14.2s" begin="21.0s" repeatCount="indefinite"/>
     </g>
 
-    <rect x="390" y="78" width="12" height="28" fill="#9fb3c8">
-        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
 </svg>
