@@ -23,15 +23,23 @@
     <text x="40" y="55" font-family="Inter, Segoe UI, system-ui" font-size="20" fill="#9fb3c8">Profile Views (last 7 lifetimes)</text>
 
     <g font-family="Inter, Segoe UI, system-ui" font-weight="800" font-size="44" filter="url(#glow)">
-        <text id="v1" x="40" y="105" fill="url(#rainbow)" opacity="1">1,337,000</text>
-        <text id="v2" x="40" y="105" fill="url(#rainbow)" opacity="0">3.1415e6 + 2.718i</text>
-        <text id="v3" x="40" y="105" fill="url(#rainbow)" opacity="0">42,000,000,000</text>
-        <text id="v4" x="40" y="105" fill="url(#rainbow)" opacity="0">ℵ₀</text>
+        <text id="v1" x="40" y="115" fill="url(#rainbow)" opacity="1">1,337,000</text>
+        <text id="v2" x="40" y="115" fill="url(#rainbow)" opacity="0">3.1415e6 + 2.718i</text>
+        <text id="v3" x="40" y="115" fill="url(#rainbow)" opacity="0">42,000,000,000</text>
+        <text id="v4" x="40" y="115" fill="url(#rainbow)" opacity="0">|ψ⟩</text>
+        <text id="v5" x="40" y="115" fill="url(#rainbow)" opacity="0">
+            α|0⟩ + β|1⟩
+        </text>
+        <text id="v6" x="40" y="115" fill="url(#rainbow)" opacity="0" font-size="32">
+            |α|<tspan baseline-shift="super" font-size="20">2</tspan> + |β|<tspan baseline-shift="super" font-size="20">2</tspan> = 1
+        </text>
 
-        <animate href="#v1" attributeName="opacity" values="1;0;0;0;1" dur="4.8s" repeatCount="indefinite"/>
-        <animate href="#v2" attributeName="opacity" values="0;1;0;0;0" dur="4.8s" repeatCount="indefinite" begin="1.2s"/>
-        <animate href="#v3" attributeName="opacity" values="0;0;1;0;0" dur="4.8s" repeatCount="indefinite" begin="2.4s"/>
-        <animate href="#v4" attributeName="opacity" values="0;0;0;1;0" dur="4.8s" repeatCount="indefinite" begin="3.6s"/>
+        <animate href="#v1" attributeName="opacity" values="1;0;0;0;0;0;1" dur="7.2s" repeatCount="indefinite"/>
+        <animate href="#v2" attributeName="opacity" values="0;1;0;0;0;0;0" dur="7.2s" begin="1.2s" repeatCount="indefinite"/>
+        <animate href="#v3" attributeName="opacity" values="0;0;1;0;0;0;0" dur="7.2s" begin="2.4s" repeatCount="indefinite"/>
+        <animate href="#v4" attributeName="opacity" values="0;0;0;1;0;0;0" dur="7.2s" begin="3.6s" repeatCount="indefinite"/>
+        <animate href="#v5" attributeName="opacity" values="0;0;0;0;1;0;0" dur="7.2s" begin="4.8s" repeatCount="indefinite"/>
+        <animate href="#v6" attributeName="opacity" values="0;0;0;0;0;1;0" dur="7.2s" begin="6.0s" repeatCount="indefinite"/>
     </g>
 
     <rect x="390" y="78" width="12" height="28" fill="#9fb3c8">
