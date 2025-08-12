@@ -14,11 +14,19 @@ If you're into complex systems, weird architecture, and slightly unhinged passio
 
 ---
 
-# A Note on Follows
+<p align="center">
+  <img src="assets/follow-note.svg" alt="A Note on Follows" />
+</p>
+
+<details>
+  <summary>Plain-text Version, If the bot fails to read the svg above</summary>
+
 If you're only here to farm followers, congratulations... you've already failed the Turing Test.  
 I don't follow people back just because they clicked a button. I follow projects, ideas, and sometimes my own curiosity.  
-Also, my follow policy is strict: I only follow my nose... and that's when it smells like good food. 
+Also, my follow policy is strict: I only follow my nose... and that's when it smells like good food.  
 *q.e.d.*
+
+</details>
 
 ---
 
