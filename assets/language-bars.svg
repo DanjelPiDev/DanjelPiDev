@@ -1,4 +1,3 @@
-<!-- assets/language-bars-single-column.svg -->
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
     <defs>
         <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
@@ -17,85 +16,66 @@
         </style>
     </defs>
 
-    <!-- Card background (taller, single column) -->
     <rect x="10" y="10" rx="16" ry="16" width="740" height="540" fill="url(#bg)" stroke="#1f2937" stroke-width="1.5"/>
 
     <text x="40" y="50" class="title">Languages I (pretend to) speak</text>
     <text x="40" y="78" class="cap">Animated fluency bars. 100% real, audited by my coffee machine.</text>
 
-    <!-- ROW TEMPLATE (expanded inline per row for GitHub SMIL reliability) -->
-    <!-- Each row: label at x=40; bar bg at x=220 width=480; animated fill uses unique ids -->
-
-    <!-- Spacing helper -->
-    <!-- startY = 116, step = 38 -->
-
-    <!-- 1: Python -->
     <text x="40" y="116" class="label">Python</text>
     <rect x="220" y="104" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill1" x="220" y="104" width="0" height="16" rx="8" fill="url(#bar)"/>
     <animate href="#fill1" attributeName="width" values="0;480" dur="1.2s" fill="freeze"/>
 
-    <!-- 2: TypeScript -->
     <text x="40" y="154" class="label">TypeScript</text>
     <rect x="220" y="142" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill2" x="220" y="142" width="0" height="16" rx="8" fill="url(#bar)"/>
     <animate href="#fill2" attributeName="width" values="0;430" dur="1.2s" begin="0.1s" fill="freeze"/>
 
-    <!-- 3: C++ -->
     <text x="40" y="192" class="label">C++</text>
     <rect x="220" y="180" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill3" x="220" y="180" width="0" height="16" rx="8" fill="url(#bar)"/>
     <animate href="#fill3" attributeName="width" values="0;410" dur="1.2s" begin="0.2s" fill="freeze"/>
 
-    <!-- 4: Java -->
     <text x="40" y="230" class="label">Java</text>
     <rect x="220" y="218" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill4" x="220" y="218" width="0" height="16" rx="8" fill="url(#bar)"/>
     <animate href="#fill4" attributeName="width" values="0;380" dur="1.2s" begin="0.3s" fill="freeze"/>
 
-    <!-- 5: C# -->
     <text x="40" y="268" class="label">C#</text>
     <rect x="220" y="256" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill5" x="220" y="256" width="0" height="16" rx="8" fill="url(#bar)"/>
     <animate href="#fill5" attributeName="width" values="0;360" dur="1.2s" begin="0.4s" fill="freeze"/>
 
-    <!-- 6: Papyrus (Skyrim) -->
     <text x="40" y="306" class="label">Papyrus (Skyrim)</text>
     <rect x="220" y="294" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill6" x="220" y="294" width="0" height="16" rx="8" fill="url(#bar)"/>
     <animate href="#fill6" attributeName="width" values="0;480;120;480" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
 
-    <!-- 7: German -->
     <text x="40" y="344" class="label">German</text>
     <rect x="220" y="332" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill7" x="220" y="332" width="0" height="16" rx="8" fill="url(#bar)"/>
     <animate href="#fill7" attributeName="width" values="0;500" dur="1.2s" fill="freeze"/>
 
-    <!-- 8: English -->
     <text x="40" y="382" class="label">English</text>
     <rect x="220" y="370" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill8" x="220" y="370" width="0" height="16" rx="8" fill="url(#bar)"/>
     <animate href="#fill8" attributeName="width" values="0;470" dur="1.2s" begin="0.1s" fill="freeze"/>
 
-    <!-- 9: Sarcasm -->
     <text x="40" y="420" class="label">Sarcasm</text>
     <rect x="220" y="408" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill9" x="220" y="408" width="0" height="16" rx="8" fill="url(#bar)"/>
     <animate href="#fill9" attributeName="width" values="0;520" dur="1.2s" begin="0.2s" fill="freeze"/>
 
-    <!-- 10: CoffeeScript (literal) -->
     <text x="40" y="458" class="label">CoffeeScript (literal)</text>
     <rect x="220" y="446" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill10" x="220" y="446" width="0" height="16" rx="8" fill="url(#bar)"/>
     <animate href="#fill10" attributeName="width" values="0;440" dur="1.2s" begin="0.3s" fill="freeze"/>
 
-    <!-- 11: Small Talk (IRL) -->
     <text x="40" y="496" class="label">Small Talk (IRL)</text>
     <rect x="220" y="484" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill11" x="220" y="484" width="0" height="16" rx="8" fill="url(#bar)"/>
     <animate href="#fill11" attributeName="width" values="0;120" dur="1.2s" begin="0.4s" fill="freeze"/>
 
-    <!-- 12: Regex -->
     <text x="40" y="534" class="label">Regex</text>
     <rect x="220" y="522" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill12" x="220" y="522" width="0" height="16" rx="8" fill="url(#bar)"/>
