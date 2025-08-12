@@ -14,10 +14,11 @@ If you're into complex systems, weird architecture, and slightly unhinged passio
 
 ---
 
-### A Note on Follows
-If you're here just to follow-farm, do us both a favor and unfollow right away.
-
-I only follow my nose, and that’s when it smells like good food.  *q.e.d.*
+# A Note on Follows
+If you're only here to farm followers, congratulations... you've already failed the Turing Test.  
+I don't follow people back just because they clicked a button. I follow projects, ideas, and sometimes my own curiosity.  
+Also, my follow policy is strict: I only follow my nose... and that's when it smells like good food. 
+*q.e.d.*
 
 ---
 
@@ -50,4 +51,5 @@ I only follow my nose, and that’s when it smells like good food.  *q.e.d.*
 ---
 
 **I'm always interested in connecting with fellow developers and exploring new project ideas. Feel free to reach out or explore my projects!**
+
 
