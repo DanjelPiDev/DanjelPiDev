@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="600" viewBox="0 0 760 600">
     <defs>
         <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stop-color="#0d1117"/>
@@ -16,7 +16,7 @@
         </style>
     </defs>
 
-    <rect x="10" y="10" rx="16" ry="16" width="740" height="540" fill="url(#bg)" stroke="#1f2937" stroke-width="1.5"/>
+    <rect x="10" y="10" rx="16" ry="16" width="740" height="580" fill="url(#bg)" stroke="#1f2937" stroke-width="1.5"/>
 
     <text x="40" y="50" class="title">Languages I (pretend to) speak</text>
     <text x="40" y="78" class="cap">Animated fluency bars. 100% real, audited by my coffee machine.</text>
@@ -64,7 +64,7 @@
     <text x="40" y="420" class="label">Sarcasm</text>
     <rect x="220" y="408" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill9" x="220" y="408" width="0" height="16" rx="8" fill="url(#bar)"/>
-    <animate href="#fill9" attributeName="width" values="0;520" dur="1.2s" begin="0.2s" fill="freeze"/>
+    <animate href="#fill9" attributeName="width" values="0;600" dur="1.2s" begin="0.2s" fill="freeze"/>
 
     <text x="40" y="458" class="label">CoffeeScript (literal)</text>
     <rect x="220" y="446" width="480" height="16" rx="8" fill="#1f2937"/>
@@ -74,10 +74,15 @@
     <text x="40" y="496" class="label">Small Talk (IRL)</text>
     <rect x="220" y="484" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill11" x="220" y="484" width="0" height="16" rx="8" fill="url(#bar)"/>
-    <animate href="#fill11" attributeName="width" values="0;600" dur="1.2s" begin="0.4s" fill="freeze"/>
+    <animate href="#fill11" attributeName="width" values="0;110" dur="1.2s" begin="0.4s" fill="freeze"/>
 
-    <text x="40" y="534" class="label">Regex</text>
+    <text x="40" y="534" class="label">Deep Talk (IRL)</text>
     <rect x="220" y="522" width="480" height="16" rx="8" fill="#1f2937"/>
     <rect id="fill12" x="220" y="522" width="0" height="16" rx="8" fill="url(#bar)"/>
-    <animate href="#fill12" attributeName="width" values="0;520" dur="1.2s" begin="0.5s" fill="freeze"/>
+    <animate href="#fill12" attributeName="width" values="0;480" dur="1.2s" begin="0.4s" fill="freeze"/>
+
+    <text x="40" y="572" class="label">Regex</text>
+    <rect x="220" y="560" width="480" height="16" rx="8" fill="#1f2937"/>
+    <rect id="fill13" x="220" y="560" width="0" height="16" rx="8" fill="url(#bar)"/>
+    <animate href="#fill13" attributeName="width" values="0;300" dur="1.2s" begin="0.5s" fill="freeze"/>
 </svg>
