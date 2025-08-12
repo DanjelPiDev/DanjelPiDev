@@ -1,13 +1,10 @@
-<!-- assets/follow-note.svg -->
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="200" viewBox="0 0 1100 200">
     <defs>
-        <!-- Dark card bg -->
         <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stop-color="#0d1117"/>
             <stop offset="100%" stop-color="#10151d"/>
         </linearGradient>
 
-        <!-- Animated rainbow gradient for text -->
         <linearGradient id="rainbow" x1="0" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
             <stop offset="0%" stop-color="#ff0066"/>
             <stop offset="25%" stop-color="#ff9a00"/>
@@ -18,7 +15,6 @@
                               type="translate" from="-1100 0" to="1100 0" dur="6s" repeatCount="indefinite"/>
         </linearGradient>
 
-        <!-- Soft neon glow for the title -->
         <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
             <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
             <feMerge>
@@ -27,38 +23,32 @@
             </feMerge>
         </filter>
 
-        <!-- Blinking cursor block -->
         <mask id="cursorMask">
             <rect width="100%" height="100%" fill="white"/>
             <!-- transparent hole where cursor sits (none needed here) -->
         </mask>
     </defs>
 
-    <!-- Card -->
     <rect x="10" y="10" rx="20" ry="20" width="1080" height="180" fill="url(#bg)" stroke="#1f2937" stroke-width="1.5"/>
 
-    <!-- Title -->
     <text x="50%" y="72" text-anchor="middle"
           font-family="Segoe UI, Inter, system-ui, -apple-system, Arial, sans-serif"
           font-size="36" font-weight="800" fill="url(#rainbow)" filter="url(#glow)">
         A Note on Follows
     </text>
 
-    <!-- Body line 1 -->
     <text x="50%" y="120" text-anchor="middle"
           font-family="Segoe UI, Inter, system-ui, -apple-system, Arial, sans-serif"
           font-size="18" fill="#e6edf3">
         If you're only here to farm followers, congratulations... you've already failed the Turing Test.
     </text>
 
-    <!-- Body line 2 -->
     <text x="50%" y="146" text-anchor="middle"
           font-family="Segoe UI, Inter, system-ui, -apple-system, Arial, sans-serif"
           font-size="18" fill="#9fb3c8">
         I don't follow people back for button mashing. I follow projects, ideas, and sometimes my own curiosity.
     </text>
 
-    <!-- Body line 3 + blinking q.e.d. cursor -->
     <g>
         <text x="50%" y="172" text-anchor="middle"
               font-family="Segoe UI, Inter, system-ui, -apple-system, Arial, sans-serif"
