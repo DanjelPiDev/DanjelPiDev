@@ -12,28 +12,6 @@ If you're here to find polished SaaS clones, you're in the wrong repo.
 
 If you're into complex systems, weird architecture, and slightly unhinged passion projects... Welcome.
 
-
-<p align="center">
-  <img src="assets/profile-views.svg" alt="Totally Real Profile Views" />
-</p>
-
-
----
-
-<p align="center">
-  <img src="assets/follow-note.svg" alt="A Note on Follows" />
-</p>
-
-<details>
-  <summary>Plain-text Version, If the bot fails to read the svg above</summary>
-
-If you're only here to farm followers, congratulations... you've already failed the Turing Test.  
-I don't follow people back just because they clicked a button. I follow projects, ideas, and sometimes my own curiosity.  
-Also, my follow policy is strict: I only follow my nose... and that's when it smells like good food.  
-*q.e.d.*
-
-</details>
-
 ---
 
 ### Tech Stack & Tools
@@ -47,11 +25,6 @@ Also, my follow policy is strict: I only follow my nose... and that's when it sm
 - Machine Learning (SNNs, Transformers, RL, CNNs)
 - Full-Stack Web Systems (APIs, Admin UIs, Video platforms)
 - Tooling & Automation (backup systems, DB scripting)
-
-<p align="center">
-  <img src="assets/language-bars.svg" alt="Languages I speak" />
-</p>
-
 
 ---
 
@@ -72,5 +45,6 @@ Also, my follow policy is strict: I only follow my nose... and that's when it sm
 ---
 
 **I'm always interested in connecting with fellow developers and exploring new project ideas. Feel free to reach out or explore my projects!**
+
 
 
