@@ -5,8 +5,6 @@
 ### About Me
 I develop full-stack systems by day and build strange, experimental AI projects by night.
 
-If you're into complex systems, weird architecture, and slightly unhinged passion projects... Welcome.
-
 ---
 
 ### Tech Stack & Tools
