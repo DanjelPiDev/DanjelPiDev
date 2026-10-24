@@ -28,22 +28,6 @@ If you're into complex systems, weird architecture, and slightly unhinged passio
 
 ---
 
-### GitHub Stats
-<p align="center">
-  <img src="https://img.shields.io/badge/PROFILE%20VIEWS-QUANTUM%20SUPERPOSITION-6e59a5?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/FOLLOW%20COUNT-NOT%20A%20KPI-374151?style=for-the-badge" />
-</p>
-
-
----
-
-### Contact
-<p align="center">
-    <a href="mailto:nullpointerexcy@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
-
----
-
 **I'm always interested in connecting with fellow developers and exploring new project ideas. Feel free to reach out or explore my projects!**
 
 
